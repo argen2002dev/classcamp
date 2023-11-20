@@ -1,24 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.container{
+
+.container {
     width: 90%;
     margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
-button{
+
+button {
     border: none;
     cursor: pointer;
     transition: .5s;
 }
+
 body {
-    font-family: "Roboto", sans-serif ;
+    font-family: "Roboto", sans-serif;
 }
+
 /*header start*/
-#header{
+#header {
     padding: 25px 0;
     background: rgba(255, 255, 255, 0.48);
     -webkit-box-shadow: 0 13px 15px 11px rgba(0, 0, 0, 0.24);
@@ -31,12 +36,14 @@ body {
 
 
 }
+
 .header-logo h1 {
     color: black;
     font-size: 30px;
     font-weight: 800;
     padding-right: 64px;
 }
+
 .header-logo a {
     color: #000;
     font-size: 16px;
@@ -44,11 +51,13 @@ body {
     padding: 0 26px;
     transition: .5s;
 }
+
 .header-logo a:hover {
     color: royalblue;
     text-decoration-line: underline;
 }
-.header-btn button{
+
+.header-btn button {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -58,6 +67,7 @@ body {
     border: 2px solid #FF4343;
 
 }
+
 .header-btn button:hover {
     background: transparent;
     border: 2px solid #FF4343;
@@ -68,6 +78,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .header-logo {
     display: flex;
     align-items: center;
@@ -77,7 +88,7 @@ body {
 /*header end*/
 
 /*hero start*/
-#hero{
+#hero {
     background: #100E14;
     padding: 96px 0 0 0;
 
@@ -98,7 +109,7 @@ body {
     padding: 44px 0 73px 0;
 }
 
-.hero button{
+.hero button {
     color: #FFF;
     font-size: 23px;
     font-weight: 400;
@@ -110,11 +121,13 @@ body {
     border: 2px solid #FF4343;
 
 }
+
 .hero button:hover {
     background: transparent;
     border: 2px solid #FF4343;
 
 }
+
 .hero button ion-icon {
     padding-right: 2px;
 }
@@ -125,6 +138,7 @@ body {
     font-weight: 400;
     padding: 19px 0 61px 0;
 }
+
 .hero-img {
     display: flex;
     justify-content: center;
@@ -138,11 +152,13 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .hero-img-two {
     position: absolute;
     top: 0;
     right: -17px;
 }
+
 /*hero end*/
 
 /*shoot start*/
@@ -150,6 +166,7 @@ body {
     background: #121118;
     padding: 60px 0 0 0;
 }
+
 .shoot-text h1 {
     width: 442px;
     color: #FFF;
@@ -172,25 +189,29 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .shoot-img {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
+
 .shoot-img-one {
     position: absolute;
     top: 95px;
     left: -315px;
 }
+
 .shoot-img-two {
     position: relative;
     z-index: 1;
 }
+
 /*shoot end*/
 
 /*enrich start*/
-#enrich{
+#enrich {
     padding: 180px 0;
     background: #121118;
 }
@@ -203,6 +224,7 @@ body {
     line-height: 70px;
     padding-bottom: 38px;
 }
+
 .enrich-text p {
     color: rgba(255, 255, 255, 0.50);
     font-size: 27px;
@@ -210,26 +232,31 @@ body {
     line-height: 37px;
     width: 524px;
 }
+
 .enrich-text p span {
     color: #FFF;
     font-weight: 700;
 }
+
 .enrich-image {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.enrich-image-one{
+
+.enrich-image-one {
     position: absolute;
     top: 0;
     left: 0;
 }
-.enrich{
+
+.enrich {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 /*enrich end*/
 
 /*add start*/
@@ -246,6 +273,7 @@ body {
     width: 404px;
     padding-bottom: 38px;
 }
+
 .add-text p {
     color: rgba(255, 255, 255, 0.50);
     font-size: 27px;
@@ -253,15 +281,18 @@ body {
     line-height: 37px;
     width: 500px;
 }
+
 .add-text p span {
     color: white;
     font-weight: 700;
 }
-.add{
+
+.add {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .add-block {
     width: 571px;
     height: 367px;
@@ -273,6 +304,7 @@ body {
     align-items: center;
 
 }
+
 .add-block-one {
     -webkit-box-shadow: 0 0 51px 29px rgba(254, 4, 4, 0.19);
     -moz-box-shadow: 0 0 51px 29px rgba(254, 4, 4, 0.19);
@@ -287,6 +319,7 @@ body {
     justify-content: space-around;
     align-items: start;
 }
+
 .add-block-icon {
     width: 40px;
     height: 40px;
@@ -298,6 +331,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .add-block-text h3 {
     color: white;
     font-size: 18px;
@@ -317,6 +351,7 @@ body {
     background: #d0353c;
     border-radius: 15px;
 }
+
 /*add end*/
 
 /*link start*/
@@ -324,6 +359,7 @@ body {
     padding: 180px 0;
     background: #121118;
 }
+
 .link-text h1 {
     color: #FFF;
     font-size: 58px;
@@ -332,6 +368,7 @@ body {
     width: 445px;
     padding-bottom: 38px;
 }
+
 .link-text p {
     width: 500px;
     color: rgba(255, 255, 255, 0.50);
@@ -340,11 +377,12 @@ body {
     line-height: 37px;
 
 }
+
 .link-text p b {
     color: white;
 }
 
-.link{
+.link {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -362,6 +400,7 @@ body {
 
 
 }
+
 .link-blocks a div {
     width: 75px;
     height: 280px;
@@ -375,7 +414,8 @@ body {
     bottom: 0;
     transition: .3s;
 }
-.link-blocks a div:hover{
+
+.link-blocks a div:hover {
     transform: translateY(-50px);
     border-radius: 20px;
     z-index: 2;
@@ -389,41 +429,49 @@ body {
     border-radius: 20px 0 0 0;
     right: 420px;
 }
+
 .instagram {
     background: #bb002f;
     border-radius: 20px 0 0 0;
     right: 360px;
 }
+
 .twitch {
     background: #6300bb;
     border-radius: 20px 0 0 0;
     right: 300px;
 }
+
 .tiktok {
     background: black;
     border-radius: 20px 0 0 0;
     right: 240px;
 }
+
 .twitter {
     background: deepskyblue;
     border-radius: 20px 0 0 0;
     right: 180px;
 }
+
 .linkedin {
     background: midnightblue;
     border-radius: 20px 0 0 0;
     right: 120px;
 }
+
 .mail {
     background: darkslategray;
     border-radius: 20px 0 0 0;
     right: 60px;
 }
+
 .whatsapp {
     background: limegreen;
     border-radius: 20px 0 30px 0;
     right: 0;
 }
+
 /*link end*/
 
 
@@ -432,6 +480,7 @@ body {
     padding: 130px 0;
     background: #121118;
 }
+
 .card h1 {
     color: #FFF;
     text-align: center;
@@ -439,12 +488,14 @@ body {
     font-weight: 400;
     line-height: 83px;
 }
+
 .line {
     width: 120px;
     height: 5px;
     margin: 38px auto;
     background: #FF4343;
 }
+
 .card p {
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
@@ -453,15 +504,18 @@ body {
     line-height: 37px;
     padding-bottom: 88px;
 }
-.card-general{
+
+.card-general {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .card-block {
     width: 19%;
     position: relative;
 }
+
 .card-block img {
     width: 100%;
 }
@@ -473,6 +527,7 @@ body {
     font-weight: 400;
     line-height: 34px;
 }
+
 .card-block-text h4 {
     color: #FFF;
     text-align: center;
@@ -481,6 +536,7 @@ body {
     line-height: 24px;
     padding: 10px 0 5px 0;
 }
+
 .card-block-text h5 {
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
@@ -488,6 +544,7 @@ body {
     font-weight: 400;
     padding-bottom: 50px;
 }
+
 .card-block-text {
 
     width: 100%;
@@ -500,10 +557,12 @@ body {
     justify-content: end;
 
 }
+
 .card-block-text {
     display: none;
 }
-.card-block:hover > .card-block-text{
+
+.card-block:hover > .card-block-text {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -514,12 +573,14 @@ body {
 .card-block:hover > .card-block-text h5 {
     animation: text .4s alternate linear;
 }
+
 @keyframes text {
-    0%{
+    0% {
         transform: translateY(50px);
     }
-    
+
 }
+
 /*card end**/
 
 /*off start*/
@@ -527,6 +588,7 @@ body {
     padding: 175px 0;
     background: #121118;
 }
+
 .off h6 {
     color: #8BFFB0;
     text-align: center;
@@ -534,6 +596,7 @@ body {
     font-weight: 400;
     padding-bottom: 21px;
 }
+
 .off h1 {
     color: #FFF;
     display: flex;
@@ -543,6 +606,7 @@ body {
     font-weight: 400;
     line-height: 83px;
 }
+
 .off p {
     padding: 20px 0;
     color: rgba(255, 255, 255, 0.50);
@@ -551,6 +615,7 @@ body {
     font-weight: 400;
     line-height: 39px;
 }
+
 .img {
     padding-top: 35px;
     display: flex;
@@ -558,29 +623,250 @@ body {
     align-items: center;
 
 }
+
 /*off end*/
 
 /*what start*/
 #what {
+    width: 100%;
+    height: 433px;
     background: #121118;
+
 }
-/*what end*/
+
+.what {
+    width: 1120px;
+    height: 433px;
+    border-radius: 30px;
+    background: #1D1B24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
 .what h1 {
     color: #FFF;
     text-align: center;
     font-size: 63px;
-    font-style: normal;
     font-weight: 400;
     line-height: 91px;
+
 }
 
 .what p {
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
     font-size: 27px;
+    font-weight: 400;
+    padding: 65px 0;
+
+}
+
+.what button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    background: #FF4343;
+    padding: 5px 30px;
+    border: 2px solid #FF4343;
+
+}
+
+.what button:hover {
+    background: transparent;
+    border: 2px solid #FF4343;
+    color: #FF4343;
+}
+
+.what button ion-icon {
+    width: 50px;
+    padding-left: 19px;
+    height: 52px;
+}
+
+/*what end*/
+
+/*lesson start*/
+
+#lesson {
+    background: url("../img/lesson.png") no-repeat center/cover;
+    min-height: 60vh;
+}
+
+
+.lesson-shadov{
+    min-height: 60vh;
+    background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.lesson h2 {
+    padding: 148px 0 0 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 48px;
+    justify-content: center;;
+}
+
+.lesson p {
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*lesson end*/
+/*cour start*/
+#cour {
+    background: #0A0A0A;
+
+}
+
+.cour-block-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cour h2 {
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 400;
+    padding-top: 170px;
+    padding-bottom: 109px;
+    }
+
+.cour-one h6{
+    color: #FFF;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
+}
+.cour-one a {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
 
+
+.cour-block {
+    display: flex;
+    align-items: center;
+}
+
+.cour-text {
+    width: 369px;
+    height: 449px;
+    background: rgba(139, 255, 176, 0.77);
+    padding: 30px 30px;
+}
+
+.cour-text h6{
+    color: rgb(149, 254, 193);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cour-text h3 {
+    width: 209px;
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.cour-text p {
+    width: 302px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.cour-text button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #8c2bcc;
+    padding: 10px 25px;
+    border: 2px solid #8c2bcc;
+    flex-direction: row-reverse;
+
+}
+.cour-text button:hover {
+    background: transparent;
+    border: 2px solid #8c2bcc;
+    color: #8c2bcc;
+}
+
+.cour-text ion-icon {
+    padding-left: 15px;
+
+}
+
+.cour-block h6{
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cour-block a {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*cour end*/
+
+
+/*product start*/
+
+#product{
+    background: #000;
+}
+
+.product{
+    display: flex;
+    letter-spacing: 1px;
+
+    padding: 120px 0 120px 0;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;
+}
+.product-general{
+
+    padding-left: 175px;
+}
+.product a {
+    width: 1290px;
+    color: white;
+    cursor: pointer;
+}
+.product a:hover{
+    text-decoration-line: underline;
+    color: royalblue;
+}
+.product-general-one {
+    padding:  0 175px;
+}
+
+.product-general-ion-icon {
+    font-size: 25px;
+    padding-left: 150px;
 }
 
 
@@ -595,3 +881,6 @@ body {
 
 
 
+
+
+/*product end*/
