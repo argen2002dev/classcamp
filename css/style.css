@@ -632,7 +632,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    animation: off 1s infinite linear;
+}
+@keyframes off {
+    0% {
+        opacity: 0;
+    }
 }
 
 /*off end*/
