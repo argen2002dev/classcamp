@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CLASS-CAMP</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
           rel="stylesheet">
 
@@ -14,7 +15,6 @@
 <header id="header">
     <div class="container">
         <div class="header">
-
             <div class="header-logo">
                 <h1>Classcamp</h1>
                 <a href="#">Pricing</a>
@@ -67,8 +67,8 @@
             </div>
 
             <div class="shoot-img">
-                <img src="./img/shoot-one.png" alt="image" class="shoot-img-one">
-                <img src="./img/shoot-two.png" alt="image" class="shoot-img-two">
+                <img src="./img/shoot-one.png" alt="image" class="shoot-img-one"  data-aos="zoom-in-up">
+                <img src="./img/shoot-two.png" alt="image" class="shoot-img-two" data-aos="flip-up">
             </div>
 
 
@@ -83,8 +83,8 @@
         <div class="enrich">
 
             <div class="enrich-image">
-                <img class="enrich-image-one" src="./img/enrich-one.png" alt="image">
-                <img class="enrich-image-two" src="./img/enrich-two.png" alt="image">
+                <img class="enrich-image-one" src="./img/enrich-one.png" alt="image" data-aos="zoom-out-left">
+                <img class="enrich-image-two" src="./img/enrich-two.png" alt="image" data-aos="zoom-out-right">
             </div>
             <div class="enrich-text">
 
@@ -321,7 +321,7 @@
             <p>Set starting dates, accept batches of students and watch them go <br> through the course. Provide
                 feedback on your own time, via text or video.</p>
             <div class="img">
-                <img src="./img/off-bir.png" alt="image">
+                <img src="./img/off-bir.png" alt="image" data-aos="zoom-in-up">
 
             </div>
         </div>
@@ -359,114 +359,149 @@
 </section>
 <!--lesson end-->
 
-<!--cour start-->
-<section id="cour">
+
+<!--block start-->
+<section id="block">
     <div class="container">
-        <div class="cour">
-            <h2>Featured courses</h2>
-            <div class="cour-block-general">
-                <div class="cour-block">
-                    <div class="cour-one">
+        <div class="block">
+            <h1>Featured courses</h1>
+            <div class="block-mans">
+                <div class="block-general">
+
+                    <div class="block-man">
+
                         <img src="./img/cour-one.png" alt="img">
-                        <h6>SMOE NOVA</h6>
-                        <a>
-                            <ion-icon name="logo-youtube"></ion-icon>
-                            188K subscribers
-                        </a>
+                        <div class="block-man-text">
+                            <h3>SMOE NOVA</h3>
+                            <h5>
+                                <ion-icon name="logo-youtube"></ion-icon>
+                                188K subscribers
+                            </h5>
+
+
+                        </div>
                     </div>
-                    <div class="cour-text">
-                        <h6>4-WEEK course Starting SEPTEMBER '21</h6>
-                        <h3>Going Wild with Graffiti Letters</h3>
-                        <p>Style writing is so much fun. I'll teach you the tools from my 20 years of practicing with
+
+                    <div class="block-title">
+                        <h4>4-WEEK course Starting SEPTEMBER '21</h4>
+
+                        <h2>
+                            Going Wild with Graffiti Letters
+                        </h2>
+
+                        <p>
+                            Style writing is so much fun. I'll teach you the tools from my 20 years of practicing with
                             letters.
                             Learn how to create new solutions, new letters, get more creative, and how to clean up the
-                            style
-                            to
-                            get rid of all the useless nonsense.</p>
-                        <button>Pre-signup
+                            style to get rid of all the useless nonsense.
+                        </p>
+
+                        <a href="#">
+                            Pre-signup
                             <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </button>
-                    </div>
-                </div>
-                <div class="cour-block">
-                    <div class="cour-two">
-                        <img src="./img/cour-two.png" alt="img">
-                        <h6>The Airbrush Guy</h6>
-                        <a>
-                            <ion-icon name="logo-youtube"></ion-icon>
-                            237K subscribers
                         </a>
+
                     </div>
-                    <div class="cour-text">
-                        <h6>4-WEEK course Starting SEPTEMBER '21</h6>
-                        <h3>Learn How to Airbrush</h3>
+
+                </div>
+                <div class="block-general">
+
+                    <div class="block-man">
+
+                        <img src="./img/cour-two.png" alt="img">
+                        <div class="block-man-text">
+                            <h3>The Airbrush Guy</h3>
+                            <h5>
+                                <ion-icon name="logo-youtube"></ion-icon>
+                                237K subscribers
+                            </h5>
+
+
+                        </div>
+                    </div>
+
+                    <div class="block-title">
+                        <h4>4-WEEK course Starting SEPTEMBER '21</h4>
+
+                        <h2>
+                            Learn How to Airbrush
+                        </h2>
+
                         <p>
                             Gain confident control of the airbrush to create simple artworks and lettering. You'll also
-                            get
-                            an
-                            understanding of how to set up, clean, and maintain your airbrushes.
+                            get an understanding of how to set up, clean, and maintain your airbrushes.
                         </p>
-                        <button>Pre-signup
+
+                        <a href="#">
+                            Pre-signup
                             <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </button>
+                        </a>
+
                     </div>
+
                 </div>
             </div>
+
+
         </div>
     </div>
 </section>
-<!--cour end-->
+<!--block end-->
 
-
-<footer id="product">
+<!--footer start-->
+<footer id="footer">
     <div class="container">
-        <div class="product">
-            <img src="./img/logo.svg" alt="img">
+        <div class="footer">
 
-            <div class="product-general">
-                <h3>PRODUCT</h3>
-                <br>
-                <br>
-                <a href="#">Create a course</a> <br>
-                <a href="#">Find a course</a><br>
-                <a href="#">Features</a><br>
-                <a href="#">Pricing</a><br>
+            <img src="./img/footer-img.svg" alt="img">
+
+            <div class="footer-nav">
+                <h3>Product</h3>
+                <a href="#">Create a course</a>
+                <a href="#">Find a course</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+
+            </div>
+            <div class="footer-nav">
+                <h3>Company</h3>
+                <a href="#">For Creators</a>
+                <a href="#">About us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-nav">
+                <h3>ResOURCES</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Terms of service</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Impressum</a>
             </div>
 
-            <div class="product-general-one">
-                <h3>COMPANY</h3>
-                <br>
-                <br>
-                <a href="#">For Creators</a> <br>
-                <a href="#">About us</a><br>
-                <a href="#">Contact</a><br>
-            </div>
+            <div class="footer-icons">
+                <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
 
-            <div class="product-general-two">
-                <h3>RESOURCES</h3>
-                <br>
-                <br>
-                <a href="#">FAQ</a> <br>
-                <a href="#">Terms of service</a><br>
-                <a href="#">Privacy policy</a><br>
-                <a href="#">Impressum</a><br>
-            </div>
 
-            <div class="product-general-ion-icon">
-                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
             </div>
-
 
 
         </div>
-
-
     </div>
 </footer>
+<!--footer end-->
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
